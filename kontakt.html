@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt | Wetter Bauunternehmung GmbH Nottuln</title>
+<meta name="description" content="Kontaktieren Sie die Wetter Bauunternehmung in Nottuln: 02509 996014, info@wetter-tendahl.de, Beisenbusch 15. Unverbindliche Anfrage für Ihr Bauprojekt.">
+<link rel="canonical" href="https://wetter-bau-nottuln.netlify.app/kontakt.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="Wetter Bauunternehmung Startseite">
+      <svg class="brand-logo" viewBox="0 0 320 90" role="img" aria-label="Wetter Logo">
+        <rect x="0" y="0" width="320" height="90" rx="8" fill="#ffffff"/>
+        <text x="26" y="58" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#005A8C" letter-spacing="1">WETTER</text>
+        <rect x="178" y="30" width="3" height="34" fill="#C41E3A"/>
+        <path d="M190 30 L190 64 L214 30 L214 64 Z" fill="#005A8C"/>
+        <rect x="0" y="74" width="320" height="5" fill="#C41E3A"/>
+        <rect x="0" y="80" width="320" height="5" fill="#005A8C"/>
+      </svg>
+    </a>
+    <nav class="nav-desktop" aria-label="Hauptnavigation">
+      <a href="index.html" class="nav-link">Start</a>
+      <a href="unternehmen.html" class="nav-link">Unternehmen</a>
+      <a href="leistungen.html" class="nav-link">Leistungen</a>
+      <a href="referenzen.html" class="nav-link">Referenzen</a>
+      <a href="kontakt.html" class="nav-link active">Kontakt</a>
+    </nav>
+    <a href="kontakt.html" class="btn btn-primary header-cta">Angebot anfragen</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Start</a>
+    <a href="unternehmen.html">Unternehmen</a>
+    <a href="leistungen.html">Leistungen</a>
+    <a href="referenzen.html">Referenzen</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="tel:+492509996014" class="btn btn-primary">Jetzt anrufen</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Start</a> / Kontakt</div>
+      <h1>Sprechen Sie uns an</h1>
+      <p>Unverbindlich und kostenlos – wir beraten Sie gerne zu Ihrem Bauprojekt.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="eyebrow">Direktkontakt</span>
+        <h2>Wetter Bauunternehmung GmbH</h2>
+        <p>Beisenbusch 15<br>48301 Nottuln</p>
+        <p><strong>Telefon:</strong> <a href="tel:+492509996014">02509 996014</a><br>
+        <strong>Mobil:</strong> <a href="tel:+492509994515">02509 94515</a><br>
+        <strong>E-Mail:</strong> <a href="mailto:info@wetter-tendahl.de">info@wetter-tendahl.de</a></p>
+        <p>Geschäftsführung: Philipp Tendahl & Michael Waltering</p>
+        <div class="map-embed">
+          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=7.35%2C51.92%2C7.40%2C51.95&layer=mapnik&marker=51.935%2C7.375" loading="lazy" title="Karte Nottuln"></iframe>
+        </div>
+      </div>
+      <div>
+        <span class="eyebrow">Anfrage</span>
+        <h2>Projekt anfragen</h2>
+        <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <p style="display:none"><label>Nicht ausfüllen: <input name="bot-field"></label></p>
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-Mail *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="telefon">Telefon</label>
+            <input type="tel" id="telefon" name="telefon">
+          </div>
+          <div class="form-group">
+            <label for="projekt">Projektart</label>
+            <select id="projekt" name="projekt">
+              <option>Rohbau</option>
+              <option>Neubau</option>
+              <option>Altbausanierung</option>
+              <option>Sonstiges</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="nachricht">Ihre Nachricht *</label>
+            <textarea id="nachricht" name="nachricht" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">Anfrage senden</button>
+          <p class="form-note">Mit dem Absenden stimmen Sie der Verarbeitung Ihrer Daten gemäß unserer Datenschutzerklärung zu.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <svg class="brand-logo" viewBox="0 0 320 90" role="img" aria-label="Wetter Logo">
+        <rect x="0" y="0" width="320" height="90" rx="8" fill="#ffffff"/>
+        <text x="26" y="58" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#005A8C" letter-spacing="1">WETTER</text>
+        <rect x="178" y="30" width="3" height="34" fill="#C41E3A"/>
+        <path d="M190 30 L190 64 L214 30 L214 64 Z" fill="#005A8C"/>
+        <rect x="0" y="74" width="320" height="5" fill="#C41E3A"/>
+        <rect x="0" y="80" width="320" height="5" fill="#005A8C"/>
+      </svg>
+      <p>Familienbetrieb für Maurerarbeiten in Nottuln und dem Münsterland. Seit 1935.</p>
+    </div>
+    <div>
+      <h4>Navigation</h4>
+      <a href="index.html">Start</a><a href="unternehmen.html">Unternehmen</a><a href="leistungen.html">Leistungen</a><a href="referenzen.html">Referenzen</a><a href="kontakt.html">Kontakt</a>
+    </div>
+    <div>
+      <h4>Kontakt</h4>
+      <p>Wetter Bauunternehmung GmbH<br>Beisenbusch 15<br>48301 Nottuln</p>
+      <p><a href="tel:+492509996014">02509 996014</a><br><a href="mailto:info@wetter-tendahl.de">info@wetter-tendahl.de</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Wetter Bauunternehmung GmbH</span>
+    <span><a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></span>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <a href="tel:+492509996014" class="btn btn-primary">Anrufen</a>
+  <a href="kontakt.html" class="btn btn-secondary">Angebot</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
