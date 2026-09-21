@@ -1,3 +1,6 @@
 # Wetter Bauunternehmung – Website-Vorschau
 
-Live-Vorschau: https://raw.githack.com/niklasneeland-cmyk/wetter-bau-nottuln/main/index.html
+Live im Browser:
+https://htmlpreview.github.io/?https://github.com/niklasneeland-cmyk/wetter-bau-nottuln/blob/main/index.html
+
+Seiten: Start, Unternehmen, Leistungen, Referenzen, Kontakt, Impressum, Datenschutz.
